@@ -12,9 +12,7 @@ var query = false;
 const firstClick = () => {
     $(".img1").hide();
     $(".img3").hide();
-    $(".img2").show().animate({
-        opacity: 1
-    }, 150);
+    $(".img2").show();
     query = true;
 }
 
@@ -22,9 +20,7 @@ const firstClick = () => {
 const secondClick = () => {
     $(".img1").hide();
     $(".img2").hide();
-    $(".img3").show().animate({
-        opacity: 1
-    }, 150);
+    $(".img3").show();
     query = null;
 }
 
@@ -32,9 +28,7 @@ const secondClick = () => {
 const thirdClick = () => {
     $(".img2").hide();
     $(".img3").hide();
-    $(".img1").show().animate({
-        opacity: 1
-    }, 150);
+    $(".img1").show();
     query = false;
 }
 
@@ -65,9 +59,7 @@ var query1 = false;
 const leftFirst = () => {
     $(".img1").hide();
     $(".img2").hide();
-    $(".img3").show().animate({
-        opacity: 1
-    }, 150);
+    $(".img3").show();
     query = null;
 }
 
@@ -75,9 +67,7 @@ const leftFirst = () => {
 const leftSecond = () => {
     $(".img1").hide();
     $(".img3").hide();
-    $(".img2").show().animate({
-        opacity: 1
-    }, 150);
+    $(".img2").show();
     query = true;
 }
 
@@ -85,9 +75,7 @@ const leftSecond = () => {
 const leftThird = () => {
     $(".img2").hide();
     $(".img3").hide();
-    $(".img1").show().animate({
-        opacity: 1
-    }, 150);
+    $(".img1").show();
     query = false;
 }
 
