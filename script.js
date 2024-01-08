@@ -57,11 +57,11 @@ $("#btn2").click(() => {
 
 // Declare the event listener, and execute the suitable function
 $("#btn1").click(() => {
-    if (query == false) {
+    if (imageIndex == false) {
         secondClick();
-    } else if (query == null) {
+    } else if (imageIndex == null) {
         firstClick();
-    } else if (query == true) {
+    } else if (imageIndex == true) {
         thirdClick();
     }
 
